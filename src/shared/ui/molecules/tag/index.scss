@@ -1,0 +1,26 @@
+.tag{
+  display: flex;
+  padding: 1px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+  &_Dead{
+    & p {
+      color: #4F5AED;
+    }
+    background: #E9EDF5;
+  }
+  &_unknown{
+    & p {
+      color: #5A6376;
+    }
+    background: #F0F1FA;
+  }
+  &_Alive{
+    & p{
+      color: #14804A;
+    }
+    background: #E1FCEF;
+  }
+}

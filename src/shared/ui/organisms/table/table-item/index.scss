@@ -1,0 +1,40 @@
+.table-item{
+  padding: 12px 50px 12px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  &_even {
+    background: #F9FAFC;
+  }
+
+  td {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    overflow: hidden;
+  }
+  &__checkbox {
+    width: 16px;
+  }
+  &__id{
+    width: 36px;
+  }
+  &__name {
+    width: 160px;
+    cursor: pointer;
+  }
+  &__description {
+    width: 238px;
+  }
+  &__status{
+    width: 80px;
+  }
+
+  &__rate, &__balance, &__deposit {
+    width: 100px;
+    align-items: flex-end !important;
+  }
+}

@@ -1,0 +1,43 @@
+.table-page{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  &__controller {
+    position: relative;
+    display: flex;
+    padding: 16px 20px;
+    background: rgba(244, 247, 252, 0.75);
+    z-index: 999;
+  }
+  &__table{
+    height: 100%;
+  }
+}
+
+.search{
+  position: relative;
+  z-index: 999;
+  width: 320px;
+  align-self: flex-start;
+  justify-self: flex-start;
+  &__selector-wrapper {
+    position: absolute;
+    width: 320px;
+    top: 40px;
+    left: 0;
+    display: none;
+    z-index: 999;
+    .selector {
+      width: 100%;
+      align-items: flex-start;
+      &__item {
+        width: 100%;
+      }
+    }
+    &_active{
+      display: flex;
+    }
+  }
+}

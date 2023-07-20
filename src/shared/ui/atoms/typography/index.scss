@@ -1,0 +1,46 @@
+.typography {
+  font-family: Inter;
+  font-style: normal;
+  line-height: 142.9%;
+  color: #171C26;
+
+  &_subtitle-s2 {
+    font-size: 14px;
+    letter-spacing: 0.28px;
+  }
+  &_caption {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+  }
+  &_caption-c1{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+  }
+  &_caption-c2 {
+    font-size: 12px;
+    letter-spacing: 0.36px;
+  }
+  &_body-b2{
+    font-size: 14px;
+  }
+  &_body-number{
+    font-size: 14px;
+  }
+  &_overline{
+    letter-spacing: 0.44px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  &_light{
+    font-weight: 400;
+  }
+  &_medium{
+    font-weight: 500;
+  }
+  &_bold{
+    font-weight: 600;
+  }
+}

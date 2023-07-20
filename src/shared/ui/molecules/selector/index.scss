@@ -1,0 +1,27 @@
+.selector {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.08), 0px 15px 35px -5px rgba(17, 24, 38, 0.20), 0px 0px 0px 1px rgba(152, 161, 178, 0.10);
+  
+  &__item {
+    display: flex;
+    padding: 4px 10px;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    p {
+      color: #000 !important;
+    }
+    &_active {
+      background: #2264E5;
+      p {
+        color: #fff !important;
+      }
+    }
+  }
+}

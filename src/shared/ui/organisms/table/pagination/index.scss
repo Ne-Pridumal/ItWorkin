@@ -1,0 +1,50 @@
+.pagination {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: rgba(244, 247, 252, 0.75);
+  backdrop-filter: blur(4px);
+  width: 100%;
+
+  &__pages {
+    p {
+      color: var(--gray-500, #687182);
+    }
+  }
+  &__activities{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__settings {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+    p {
+      color: var(--gray-500, #687182);
+    }
+  }
+  &__controllers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span {
+      color: var(--gray-900, #171C26);
+    }
+  }
+
+  &__selector-wrapper{
+    position: absolute;
+    display: none;
+    bottom: 30px;
+    right: 0;
+    &_active{
+      display: flex;
+    }
+  }
+}
